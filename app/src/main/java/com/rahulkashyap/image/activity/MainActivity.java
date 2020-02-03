@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         loadJSON();
     }
-
     private void loadJSON() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(URL)
